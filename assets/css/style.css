@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f7f9fb;
+}
+li {
+    list-style: none;
+}
+.main-screen {
+    background: url(../img/bg1.jpg) no-repeat;
+    background: url(../img/bg1.webp) no-repeat;
+    background-size: cover;
+}
+.header__body {
+    padding: 29px 0;
+}
+.container {
+    max-width: 1135px;
+    margin: 0 auto;
+}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav {
+    display: flex;
+}
+.header__item {
+    padding: 0px 25px 0px 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #fff;
+    transition: opacity .2s linear;
+}
+.header__item:last-child {
+    padding: 0;
+}
+.header__item:hover {
+    opacity: .7;
+}
+.intro__body {
+    width: 806px;
+    height: 286px;
+    margin: 160px auto;
+}
+.intro__title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 91px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 5.46px;
+    line-height: normal;
+    color: #fff;
+}
+.intro__suptitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #bbd8ff;
+}
+.btn {
+    display: block;
+    width: 217px;
+    height: 56px;
+    background-color: #25365d;
+    border-radius: 28px;
+    text-align: center;
+    margin: 79px auto;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 57px;
+    text-decoration: none;
+    color: #fff;
+
+    transition: all .2s linear;
+}
+.btn:hover {
+    background-color: #2a4275;
+}
+.intro__btn:before{
+    content: url(../img/icons/download.webp);
+    margin: 0px 18px 0px 0px;
+}
+.bg-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 261px;
+    font-weight: 400;
+    line-height: 150.61px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: normal;
+    line-height: 0;
+    margin: 629px 0px 0px 0px;
+}
+.just-download-it__row {
+    display: flex;
+}
+.just-download-it__body {
+    flex: 0 0 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 140px 0px;
+}
+.just-download-it__suptitle {
+    padding: 31px 0px 50px 0px;
+}
+.suptitle {
+    font-family: "Open Sans", sans-serif;
+    color: #5a5a5a;
+    font-weight: 400;
+    line-height: 32px;
+}
+.title {
+    color: #25365d;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.just-download-it__list li {
+    color: #93aac9;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    background: url(../img/icons/checked.webp) 0 5px no-repeat;
+    padding: 0px 0px 0px 35px;
+}
+.just-download-it__btn {
+    margin: 65px 0px 0px 0px
+}
+.just-download-it__img {
+    position: absolute;
+    margin: 0px 0px 0px 497px;
+}
+.additional-info__body {
+    padding: 155px 0;
+}
+.additional-info__row-1,
+.additional-info__row-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 78px 0px 0px 0px;
+}
+.additional-info__row-1 {
+    margin: 0px 0px 0px 0px;
+}
+.additional-info__item {
+    display: flex;
+    width: 350px;
+}
+.additional-info__item:first-child {
+    padding: 0px;
+}
+.additional-info__title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.55px;
+    color: #25365d;
+}
+.additional-info__suptitle {
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.additional-info__img {
+    padding: 8px 35px 0px 0px;
+}
+.features {
+    background-color: #fff;
+}
+.features__title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #25365d;
+    border-bottom: 1px solid #ff2868;
+}
+.features__subtitle {
+    text-align: center;
+    padding: 155px 0px 0px 0px;
+}
+.features__column-1,
+.features__column-2 {
+    display: flex;
+    flex-direction: column;
+}
+.features__body {
+    display: flex;
+    justify-content: center;
+}
+.features__column-2 {
+    text-align: right;
+}
+.features__item {
+    width: 191px;
+    padding: 197px 0px 139px 0px;
+}
+.features__item:last-child{
+    padding: 0px;
+}
+.features__suptitle {
+    line-height: 26px;
+    font-size: 14px;
+}
+.features__img {
+    text-align: center;
+    margin: 100px 0px 120px 0px;
+}
+.plans__body {
+    padding: 150px 0px 77.5px 0px;
+}
+.plans__text {
+    text-align: center;
+}
+.plans__item .plans__suptitle {
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    padding: 30px 0px 0px 0px;
+}
+.plans__row {
+    display: flex;
+    justify-content: space-around;
+}
+.plans__item {
+    width: 360px;
+    height: 280px;
+    margin: 65px 0px 0px 0px;
+
+    text-align: center;
+    background-color: #fff;
+    text-decoration: none;
+    transition: all .3s;
+}
+.plans__item:hover {
+    margin: 55px 0px 0px 0px;
+}
+.plans__subtitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+    padding: 30px 0px 29px 0px;
+}
+.plans__item .plans__title:before {
+    content: '$';
+    text-transform: lowercase;
+}
+.plans__item .plans__title:after {
+    content: '/mon';
+    color: #5a5a5a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.44px;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.call-center__body {
+    text-align: center;
+    width: 523px;
+    padding: 0px 0px 120px 0px;
+    margin: 0 auto;
+}
+.call-center__title {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    padding: 31px 0;
+}
+.call-center__row {
+    display: flex;
+    justify-content: space-around;
+}
+.call-center__item a{
+    display: flex;
+    text-decoration: none;
+    margin: 71px 0px 0px 0px;
+}
+.call-center__item img {
+    padding: 5px 11px 0px 0px;
+}
+.call-center__item p {
+    color: #25365d;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.download-this-template {
+    background: url(../img/bg2.jpg) no-repeat;
+    background: url(../img/bg2.webp) no-repeat;
+    background-size: cover;
+}
+.download-this-template__body {
+    text-align: center;
+    padding: 145px 0px 800px 0px;
+}
+.download-this-template__btn:before{
+    content: url(../img/icons/download.webp);
+    margin: 0px 18px 0px 0px;
+}
+.download-this-template__suptitle {
+    padding: 62px 0px 0px 0px;
+}
